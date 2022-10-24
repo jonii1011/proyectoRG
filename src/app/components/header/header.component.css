@@ -1,5 +1,98 @@
-div{
-    background-color: #EB753A;
+nav{
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    display: flex;
+    background: linear-gradient(rgb(20, 20, 20), rgb(29, 37, 49));
+}
+nav img{
+    width: 70px;
+    padding: 5px;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    )
+    ,url(../../../assets/banner7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    color: white;
+    font-size: 3.5em;
+}
+button{
+    font-size: 1.5;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: #B4BDDA;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    color: #B4BDDA;
+}
+
+.btn{
+    border: 3px solid rgba(100, 1000, 1000, 0.1);
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000;
+    background-size: 200%;
+}
+
+@media (max-width: 421px) {
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 }

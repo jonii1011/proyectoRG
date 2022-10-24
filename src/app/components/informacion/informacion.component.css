@@ -1,0 +1,15 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 5.0em;
+    color: #181733;
+}
+p{
+    font-size: 1.4em;
+}
+
